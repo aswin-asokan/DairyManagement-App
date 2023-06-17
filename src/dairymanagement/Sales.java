@@ -629,7 +629,7 @@ public class Sales extends javax.swing.JFrame {
                 System.out.println(e);
             }
         }
-        String billContent = "---------------------------------------Bill Amount---------------------------------------\nDealer Name: "+DealerName+"\nDate: "+Date+"\nProduct: "+MilkType+"\nQuantity: "+Quantity+"\nRate: "+Rate+"\n---------------------------------\nTotal Amount: "+Amount+"\n---------------------------------\n";
+        String billContent = "----------------------------------------Bill Amount----------------------------------------\nDealer Name: "+DealerName+"\nDate: "+Date+"\nProduct: "+MilkType+"\nQuantity: "+Quantity+"\nRate: "+Rate+"\n-------------------------------------------------------------------------------------------\nTotal Amount: "+Amount+"\n-------------------------------------------------------------------------------------------\n";
         String filePath = System.getProperty("user.home")+"/Documents/bill.txt";
         printAsTextFile(billContent, filePath);
         try {

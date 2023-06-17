@@ -583,7 +583,7 @@ public class Dashboard extends javax.swing.JFrame {
                     String sql="UPDATE Quantity SET Sum='"+sum14+"' WHERE Product=\"Ghee\"";
                     Statement st=con.createStatement();
                     int rs=st.executeUpdate(sql);
-                    if (sum11 != 0) {
+                    if (sum14 != 0) {
                         TGhee.setText("In Stock");
                     } else {
                         TGhee.setForeground(Color.red);

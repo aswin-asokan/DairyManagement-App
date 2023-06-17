@@ -4,7 +4,9 @@
  */
 package dairymanagement;
 
+import java.awt.Image;
 import java.sql.*;
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 /**

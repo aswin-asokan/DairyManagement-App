@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.8
+Created-By: 19.0.2+7-Ubuntu-0ubuntu322.04 (Private Build)
+Codebase: *
+Application-Library-Allowable-Codebase: *
+Caller-Allowable-Codebase: *
+Permissions: sandbox
+Application-Name: Dairymanagement
+
